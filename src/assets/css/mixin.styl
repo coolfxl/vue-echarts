@@ -1,0 +1,56 @@
+/* *variable */
+// font-color
+$deeper-cl = #333
+$deep-cl = #666666
+$normal-cl = #727679
+$white-cl = #fff
+$em-cl = #940e2b
+$head-cl-deep = #ff6600
+$head-cl = #da8317
+
+// bacground
+$head-bg = #24283c
+$white-bg = #fff
+$foot-bg = #f6f6f6
+$btn-bg = #5ecc35
+
+$ft-bigger = 18px
+$ft-big = 16px
+$ft-normal = 14px
+$ft-sm = 12px
+// mixin
+// clear both
+clear(){
+  &:after {
+    display: block
+    content: " "
+    clear: both
+  }
+}
+float_l(){
+  &>div{
+    float: left
+  }
+}
+float_right(){
+  &>div{
+    float: left
+  }
+}
+
+l_h($h){
+  height: $h
+  line-height: $h
+}
+.ivu-btn-primary {
+    color: #fff;
+    background-color: #c76e3b;
+    border-color: #c76e3b;
+}
+.ivu-input:hover {
+  border-color: #c76e3b;
+}
+.ivu-input:focus {
+  border-color: #c76e3b;
+  box-shadow: 0 0 0 2px rgb(199, 110, 59);
+}

@@ -1,0 +1,34 @@
+@import '../../assets/css/mixin'
+.section{
+    margin-top: 10px
+    font-size: $ft-sm
+    .title{
+      padding-left: 15px
+      l_h(30px)
+      position: relative
+      color: #444
+      .title_b{
+        font-size:   $ft-bigger
+      }
+      &:before{
+        content: " "
+        width:4px
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0  
+        background: #C76E3B
+      }
+    }
+    .content_wrapper{
+      background: #fff
+      margin-top:10px
+    }
+  }
+.ivu-icon-information-circled:before{
+  color #c76e3b
+}
+.ivu-btn:not([disabled]):hover{
+  background #c76e3b
+  border-color #c76e3b
+}
