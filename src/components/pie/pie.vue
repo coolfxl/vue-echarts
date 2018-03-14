@@ -67,7 +67,7 @@ export default {
 
 			option = {
 				title: {
-					text: '用户消费，产品销量TOP10',
+					text: '战斗力，库存TOP10',
 					// subtext: '纯属虚构',
 					x: 'center',
 					y: '10px',
@@ -113,7 +113,7 @@ export default {
 				// },
 				calculable: true,
 				series: [{
-						name: '客户消费top10',
+						name: '战斗力top10',
 						type: 'pie',
 						radius: [20, 110],
 						center: ['30%', '50%'],
@@ -151,7 +151,7 @@ export default {
 						data: json.users
 					},
 					{
-						name: '产品销量top10',
+						name: '库存top10',
 						type: 'pie',
 						radius: [30, 110],
 						center: ['70%', '50%'],
@@ -211,86 +211,86 @@ export default {
     mounted: function() {
 		var json = {
 				"users": [{
-					"username": "",
-					"name": "用户id：c9677",
-					"value": 4369.66
+					"name": "唐三",
+					"username": "用户id：c9677",
+					"value": 4369
 				}, {
-					"username": null,
-					"name": "用户id：c9721",
-					"value": 3657.46
+					"name": "小舞",
+					"username": "用户id：c9721",
+					"value": 3657
 				}, {
-					"username": "",
-					"name": "用户id：c15167",
-					"value": 1828.70
+					"name": "戴沐白",
+					"username": "用户id：c15167",
+					"value": 1828
 				}, {
-					"username": "",
-					"name": "用户id：c13562",
-					"value": 1643.83
+					"name": "宁荣荣",
+					"username": "用户id：c13562",
+					"value": 1643
 				}, {
-					"username": null,
-					"name": "用户id：c100",
+					"name": "朱竹清",
+					"username": "用户id：c100",
 					"value": 1577.80
 				}, {
-					"username": "",
-					"name": "用户id：c11428",
-					"value": 1408.89
+					"name": "马红俊",
+					"username": "用户id：c11428",
+					"value": 1408
 				}, {
-					"username": "",
-					"name": "用户id：c790",
-					"value": 1178.01
+					"name": "胖子",
+					"username": "用户id：c790",
+					"value": 1178
 				}, {
-					"username": "",
-					"name": "用户id：c24112",
-					"value": 1167.92
+					"name": "弗兰德",
+					"username": "用户id：c24112",
+					"value": 1167
 				}, {
-					"username": "",
-					"name": "用户id：c313",
-					"value": 1096.52
+					"name": "劳伦斯",
+					"username": "用户id：c313",
+					"value": 1096
 				}, {
-					"username": "",
-					"name": "用户id：c2425",
-					"value": 1067.80
+					"name": "千寻",
+					"username": "用户id：c2425",
+					"value": 1067
 				}],
-				"names": ["用户id：c9677", "用户id：c9721", "用户id：c15167", "用户id：c13562", "用户id：c100", "用户id：c11428", "用户id：c790", "用户id：c24112", "用户id：c313", "用户id：c2425", "550ml农夫山泉矿泉水", "570ml景田百岁山饮用纯净水", "维他柠檬茶纸盒250ml", "560ML景田纯净水", "维他原味豆奶250ml", "12入纯净水500ml", "无穷盐焗鸡蛋30g", "330ml罐可乐", "可口可乐500ml瓶装", "怡宝纯净水555ML"],
+				"names": ["唐三", "小舞", "戴沐白", "宁荣荣", "朱竹清", "马红俊", "胖子", "弗兰德", "劳伦斯", "千寻", "恒大冰泉", "千趣红石榴VC", "维生素C", "伊利纯牛奶", "NAYASA保温杯", "纯悦水", "茶叶蛋", "可口可乐", "惠普笔记本", "龙猫枕头"],
 				"goods": [{
 					"username": 66,
-					"name": "农夫山泉矿泉水",
+					"name": "恒大冰泉",
 					"value": 2376
 				}, {
 					"username": 136,
-					"name": "景田百岁山饮用纯净水",
+					"name": "千趣红石榴VC",
 					"value": 1736
 				}, {
 					"username": 2788,
-					"name": "维他柠檬茶纸盒",
+					"name": "维生素C",
 					"value": 1340
 				}, {
 					"username": 1689,
-					"name": "景田纯净水",
+					"name": "伊利纯牛奶",
 					"value": 1043
 				}, {
 					"username": 3928,
-					"name": "维他原味豆奶",
+					"name": "NAYASA保温杯",
 					"value": 1016
 				}, {
 					"username": 1651,
-					"name": "纯净水",
+					"name": "纯悦水",
 					"value": 1005
 				}, {
 					"username": 3710,
-					"name": "无穷盐焗鸡蛋",
+					"name": "茶叶蛋",
 					"value": 964
 				}, {
 					"username": 563,
-					"name": "罐可乐",
+					"name": "可口可乐",
 					"value": 939
 				}, {
 					"username": 3100,
-					"name": "可口可乐瓶装",
+					"name": "惠普笔记本",
 					"value": 865
 				}, {
 					"username": 721,
-					"name": "怡宝纯净水",
+					"name": "龙猫枕头",
 					"value": 856
 				}]
 			}
