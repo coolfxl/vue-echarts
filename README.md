@@ -23,7 +23,7 @@ npm run build
 ![地图](https://github.com/coolfxl/vue-echarts/blob/master/pictures/map.png)
 
 饼图功能
-![饼图](https://github.com/coolfxl/vue-echarts/blob/master/pictures/pie.png)
+![饼图](https://github.com/coolfxl/vue-echarts/blob/master/pictures/pie.jpg)
 
 复杂折线图
 ![折线图](https://github.com/coolfxl/vue-echarts/blob/master/pictures/line.png)
