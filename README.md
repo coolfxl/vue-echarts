@@ -15,6 +15,8 @@ http://localhost:8895/#/dashboard
 # build project
 npm run build
 
+build后可运行
+
 # project introduction
 项目整体截图
 ![项目](https://github.com/coolfxl/vue-echarts/blob/master/pictures/vue-echarts.png)
